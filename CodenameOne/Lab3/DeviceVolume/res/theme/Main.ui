@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" snapToGrid="false" flatten="false" layout="GridLayout" gridLayoutRows="2" gridLayoutColumns="1" title="Device Volume" >
+  <component type="Button" name="Button" cloudDestinationProperty="Button" text="Button" >
+  </component>
+  <component type="Slider" name="Slider" cloudDestinationProperty="Slider" text="" editable="true" progress="40" vertical="false" >
+  </component>
+</component>

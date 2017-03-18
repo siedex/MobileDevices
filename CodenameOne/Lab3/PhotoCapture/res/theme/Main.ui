@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Photo Capture" >
+  <component type="Label" name="photoLabel" cloudDestinationProperty="photoLabel" text="Label" >
+    <layoutConstraint value="Center" />
+  </component>
+  <component type="Slider" name="Slider" cloudDestinationProperty="Slider" text="" >
+    <layoutConstraint value="North" />
+  </component>
+  <component type="Container" name="Container" cloudDestinationProperty="Container" layout="GridLayout" gridLayoutRows="1" gridLayoutColumns="2" >
+    <layoutConstraint value="South" />
+    <component type="Button" name="captureButton" cloudDestinationProperty="captureButton" text="Capture" >
+    </component>
+    <component type="Button" name="refreshSliderButton" cloudDestinationProperty="refreshSliderButton" text="Refresh Slider" >
+    </component>
+  </component>
+  <component type="Button" name="nextFormButton" cloudDestinationProperty="nextFormButton" commandName="&gt;" commandId="1" commandAction="GUI 1" commandBack="false" text="&gt;" >
+    <layoutConstraint value="East" />
+  </component>
+</component>

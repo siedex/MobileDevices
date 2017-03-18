@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BoxLayout" boxLayoutAxis="Y" title="Device Volume" >
+  <component type="Slider" name="volumeSlider" cloudDestinationProperty="volumeSlider" text="" editable="true" progress="10" >
+  </component>
+  <component type="Button" name="playButton" cloudDestinationProperty="playButton" text="Play" >
+  </component>
+</component>

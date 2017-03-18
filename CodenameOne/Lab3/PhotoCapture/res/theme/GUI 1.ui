@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="NextForm" title="Next Form" >
+  <component type="ShareButton" name="ShareButton" cloudDestinationProperty="ShareButton" text="" >
+  </component>
+<command name="First Form" id="3" action="Main" backCommand="false" /></component>
